@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="알림">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="key_PushAlert"
+            android:summary="푸쉬 알림 여부를 설정합니다."
+            android:title="푸쉬 알림 받기" >
+        </SwitchPreference>
+        <SwitchPreference
+            android:defaultValue="0"
+            android:dependency="key_PushAlert"
+            android:key="key_PushAlertTime"
+            android:summary="해당 시간대에 알림을 받지 않습니다."
+            android:title="방해금지 시간대 설정">
+        </SwitchPreference>
+        <Preference
+            android:defaultValue="0"
+            android:dependency="key_PushAlertTime"
+            android:key="key_PushAlertTimeSet"
+            android:title="시간 설정">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="로그아웃">
+        <Preference
+            android:key="key_Logout"
+            android:summary="기기에서 로그아웃합니다."
+            android:title="로그아웃" >
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="어플 정보">
+        <Preference
+            android:summary="개발자 정보를 확인합니다."
+            android:title="개발자 정보">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

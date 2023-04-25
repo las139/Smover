@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51A7E1"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:id="@+id/btn_smover_info_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/img_btn_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/btn_smover_info_back"
+        android:gravity="center_vertical"
+        android:text="상세 정보"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+    <ImageButton
+        android:id="@+id/btn_smover_info_edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/img_btn_edit" />
+</RelativeLayout>

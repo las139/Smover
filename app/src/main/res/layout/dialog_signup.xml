@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dialog_signup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:text="회원가입"
+            android:textColor="#444444"
+            android:textSize="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_signup_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="3dp"
+                android:background="@drawable/border_gray"
+                android:inputType="text"
+                android:textColor="#444444"
+                android:textSize="15dp"
+                android:hint="아이디"/>
+
+            <Button
+                android:id="@+id/btn_signup_idcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:layout_marginLeft="3dp"
+                android:background="#51A7E1"
+                android:text="중복확인"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_signup_pw1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="3dp"
+            android:background="@drawable/border_gray"
+            android:inputType="textPassword"
+            android:textColor="#444444"
+            android:textSize="15dp"
+            android:hint="비밀번호" />
+
+        <EditText
+            android:id="@+id/edit_signup_pw2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="3dp"
+            android:background="@drawable/border_gray"
+            android:inputType="textPassword"
+            android:textColor="#444444"
+            android:textSize="15dp"
+            android:hint="비밀번호 재확인"/>
+
+        <EditText
+            android:id="@+id/edit_signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="3dp"
+            android:background="@drawable/border_gray"
+            android:inputType="textEmailAddress"
+            android:textColor="#444444"
+            android:textSize="15dp"
+            android:hint="Email" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_signup_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:background="@drawable/round_blue_setting"
+                android:text="확인"
+                android:textColor="#51A7E1" />
+
+            <Button
+                android:id="@+id/btn_signup_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:background="@drawable/round_blue_setting"
+                android:text="취소"
+                android:textColor="#51A7E1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

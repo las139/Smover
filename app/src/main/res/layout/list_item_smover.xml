@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_smover_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/image_smover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/tv_smover_area_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_smover"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="구역 이름"
+        android:textSize="16dp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_smover_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:layout_below="@+id/tv_smover_area_name">
+
+        <TextView
+            android:id="@+id/tv_smoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:text="흡연"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/tv_smover_sense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_smoke"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:text="미감지"
+            android:textColor="#51A7E1"
+            android:textSize="16dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_smover_delete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/img_btn_delete"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#EAEAEA"
+        android:layout_below="@+id/layout_smover_state">
+    </RelativeLayout>
+
+</RelativeLayout>

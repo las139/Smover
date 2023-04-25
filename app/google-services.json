@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "98555031346",
+    "firebase_url": "https://smoverproject.firebaseio.com",
+    "project_id": "smoverproject",
+    "storage_bucket": "smoverproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98555031346:android:03d38bf91e87a0bc",
+        "android_client_info": {
+          "package_name": "com.example.las13.smoverproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98555031346-6hvsmb18k923bvevp24sppia8a25ot84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqxxCmpYMtTB7hOzNWDRaFa5USZBqNQws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#4470AA"
+        android:text="\u005B 2017 한이음 프로젝트 \u005D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#BB4455"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="\u003CMENTO\u003E"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:text="한철규"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#BB4455"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="\u003C MENTEE \u003E"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#555555"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="H/W, 통신"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:text="김준호"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:text="김영학"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:text="정대호"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#555555"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="서버, DB"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:text="김종주"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#555555"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="애플리케이션"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:text="이성민"/>
+
+</LinearLayout>
